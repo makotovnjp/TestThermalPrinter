@@ -1,4 +1,4 @@
-var printer = require("node-thermal-printer");
+var printer = require('./../lib/node-thermal-printer');
 
 printer.init({
     type: 'star',

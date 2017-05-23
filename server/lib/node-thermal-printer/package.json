@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node-thermal-printer@^1.0.4",
+        "scope": null,
+        "escapedName": "node-thermal-printer",
+        "name": "node-thermal-printer",
+        "rawSpec": "^1.0.4",
+        "spec": ">=1.0.4 <2.0.0",
+        "type": "range"
+      },
+      "/Users/congthanhnguyen/hachi-x/product/TestThermalPrinter/server"
+    ]
+  ],
+  "_from": "node-thermal-printer@>=1.0.4 <2.0.0",
+  "_id": "node-thermal-printer@1.0.4",
+  "_inCache": true,
+  "_location": "/node-thermal-printer",
+  "_nodeVersion": "7.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/node-thermal-printer-1.0.4.tgz_1494251305913_0.5633111617062241"
+  },
+  "_npmUser": {
+    "name": "klemen1337",
+    "email": "klemen.kast@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node-thermal-printer@^1.0.4",
+    "scope": null,
+    "escapedName": "node-thermal-printer",
+    "name": "node-thermal-printer",
+    "rawSpec": "^1.0.4",
+    "spec": ">=1.0.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-thermal-printer/-/node-thermal-printer-1.0.4.tgz",
+  "_shasum": "41b6885361ab07764bcae6882a47e301233aea03",
+  "_shrinkwrap": null,
+  "_spec": "node-thermal-printer@^1.0.4",
+  "_where": "/Users/congthanhnguyen/hachi-x/product/TestThermalPrinter/server",
+  "author": {
+    "name": "Klemen Kastelic",
+    "email": "klemen.kast@gmail.com",
+    "url": "http://kastelic.net/"
+  },
+  "bugs": {
+    "url": "https://github.com/Klemen1337/node-thermal-printer/issues"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "node-png": "^0.4.3",
+    "unorm": "^1.4.1",
+    "write-file-queue": "0.0.1"
+  },
+  "description": "Made to work with Epson and Star thermal printers",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "41b6885361ab07764bcae6882a47e301233aea03",
+    "tarball": "https://registry.npmjs.org/node-thermal-printer/-/node-thermal-printer-1.0.4.tgz"
+  },
+  "gitHead": "efe47643ad1196ac2493607d18bb44c58b4390c9",
+  "homepage": "https://github.com/Klemen1337/node-thermal-printer",
+  "keywords": [
+    "thermal",
+    "printer",
+    "epson",
+    "star"
+  ],
+  "license": "ISC",
+  "main": "node-thermal-printer.js",
+  "maintainers": [
+    {
+      "name": "klemen1337",
+      "email": "klemen.kast@gmail.com"
+    },
+    {
+      "name": "msirok",
+      "email": "m.sirok@gmail.com"
+    }
+  ],
+  "name": "node-thermal-printer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klemen1337/node-thermal-printer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}
