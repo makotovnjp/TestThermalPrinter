@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "main": "mainServer.js",
   "dependencies": {
-    "escpos":"^2.4.1"
-
+    "escpos":"^2.4.1",
+    "bluetooth": "^3.0.0",
+    "node-thermal-printer":"^1.0.4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
