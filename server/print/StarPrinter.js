@@ -2,7 +2,7 @@ var printer = require('./../lib/node-thermal-printer');
 
 printer.init({
     type: 'star',
-    interface: '/dev/rfcomm0'
+    interface: '/dev/rfcomm1'
 });
 printer.alignCenter();
 printer.println("Hello world");
