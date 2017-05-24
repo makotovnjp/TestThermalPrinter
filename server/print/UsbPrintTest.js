@@ -40,7 +40,7 @@ device.open(function(){
     //printer.cashdraw();
 
     //printer.cashdraw(5);
-    printer.close();
+    this.close();
 
 });
 
