@@ -25,9 +25,9 @@ device.open(function(){
     //printer.font('a');
     //printer.font('a');
 
-    printer.text("ご利用ありがとうございます",'Shift_JIS');
+    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
 
-    printer.text("Số lượng",'tcvn');
+    printer.text("Số lượng",'VISCII');
 
     printer.cut();
 
