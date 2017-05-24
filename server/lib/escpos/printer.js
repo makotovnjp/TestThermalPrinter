@@ -99,7 +99,9 @@ Printer.prototype.println = function(content){
  */
 Printer.prototype.text = function(content, encoding){
   //return this.print(iconv.encode(content + _.EOL, encoding || 'GB18030'));
-    return this.print(iconv.encode(content + _.EOL, encoding || 'Shift_JIS'));
+    //return this.print(iconv.encode(content + _.EOL, encoding || 'Shift_JIS'));
+    return this.print(iconv.encode(content + _.EOL, encoding));
+
 };
 
 /**
