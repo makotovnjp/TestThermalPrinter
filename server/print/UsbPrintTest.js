@@ -22,7 +22,8 @@ device.open(function(){
     //         this.close();
     //     });
     //
-    printer.font('a');
+    //printer.font('a');
+    //printer.font('a');
 
     printer.text("ご利用ありがとうございます");
     printer.text("Số lượng");
