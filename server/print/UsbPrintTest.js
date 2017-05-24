@@ -23,15 +23,6 @@ device.open(function(){
     //     });
     //
     printer.font('a');
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-    printer.text("Thanh Test");
-
-    printer.cut();
 
     printer.text("ご利用ありがとうございます");
     printer.text("Số lượng");

@@ -114,7 +114,7 @@ _.TEXT_FORMAT = {
   TXT_ITALIC_ON   : '\x1b\x34', // Italic font ON
 
   //TXT_FONT_A      : '\x1b\x4d\x00', // Font type A 0x1b, 0x74, 0x01
-    TXT_FONT_A      : '\x1b\x74\x01', // Font type A 0x1b, 0x74, 0x01
+    TXT_FONT_A      : '\x1b\x74\x06', // Font type A 0x1b, 0x74, 0x01
 
     TXT_FONT_B      : '\x1b\x4d\x01', // Font type B
   TXT_FONT_C      : '\x1b\x4d\x02', // Font type C
