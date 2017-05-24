@@ -27,7 +27,11 @@ device.open(function(){
 
     printer.text("ご利用ありがとうございます",'Shift_JIS');
 
+    printer.text("ご利用ありがとうございます",'GB18030');
+
     printer.text("Số lượng",'tcvn');
+
+    printer.text("Số lượng",'GB18030');
 
     printer.cut();
 
