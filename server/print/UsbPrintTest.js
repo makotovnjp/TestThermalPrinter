@@ -31,7 +31,7 @@ device.open(function(){
     // printer.text("ご利用ありがとうございます2",'Shift_JIS');
     //
     //
-     printer.text("ご利用ありがとうございます3",'Shift_JIS');
+     printer.text("ご利用ありがとうございます3");
 
     //printer.text("abc");
 
