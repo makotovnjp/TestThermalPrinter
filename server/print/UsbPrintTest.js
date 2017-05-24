@@ -2,9 +2,9 @@
 const escpos = require('./../lib/escpos');
 
 // Select the adapter based on your printer type
-//const device  = new escpos.USB();
+const device  = new escpos.USB();
 // const device  = new escpos.Network('localhost');
-const device  = new escpos.Serial('/dev/rfcomm0');
+//const device  = new escpos.Serial('/dev/rfcomm0');
 
 const printer = new escpos.Printer(device);
 
