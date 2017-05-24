@@ -64,22 +64,22 @@ device.open(function(){
 
     printer.cut();
 
-    //printer.close();
+    printer.close();
 
 });
 
 
-printer.text("ご利用ありがとうございます",'Shift_JIS');
-
-printer.text("ご利用ありがとうございます",'GB18030');
-
-printer.text("Số lượng",'tcvn');
-
-printer.text("Số lượng",'GB18030');
-
-printer.text("abc",'GB18030');
-
-
-printer.cut();
-
-device.close();
+// printer.text("ご利用ありがとうございます",'Shift_JIS');
+//
+// printer.text("ご利用ありがとうございます",'GB18030');
+//
+// printer.text("Số lượng",'tcvn');
+//
+// printer.text("Số lượng",'GB18030');
+//
+// printer.text("abc",'GB18030');
+//
+//
+// printer.cut();
+//
+// device.close();
