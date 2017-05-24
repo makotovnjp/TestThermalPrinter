@@ -25,15 +25,15 @@ device.open(function(){
     //printer.font('a');
     //printer.font('a');
     //
-    // printer.text("ご利用ありがとうございます1",'Shift_JIS');
-    //
-    //
-    // printer.text("ご利用ありがとうございます2",'Shift_JIS');
-    //
-    //
-    // printer.text("ご利用ありがとうございます3",'Shift_JIS');
-    //
-    // printer.cut();
+    printer.text("ご利用ありがとうございます1",'Shift_JIS');
+
+
+    printer.text("ご利用ありがとうございます2",'Shift_JIS');
+
+
+    printer.text("ご利用ありがとうございます3",'Shift_JIS');
+
+    printer.cut();
 
     printer.cashdraw();
 
