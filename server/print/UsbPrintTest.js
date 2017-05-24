@@ -35,7 +35,7 @@ device.open(function(){
 
     //printer.text("abc");
 
-    printer.cut();
+    //printer.cut();
 
     //printer.cashdraw();
 
