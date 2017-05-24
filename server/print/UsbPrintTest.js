@@ -1,9 +1,10 @@
-const escpos = require('escpos');
+//const escpos = require('escpos');
+const escpos = require('./../lib/escpos');
 
 // Select the adapter based on your printer type
 //const device  = new escpos.USB();
 // const device  = new escpos.Network('localhost');
-const device  = new escpos.Serial('/dev/rfcomm1');
+const device  = new escpos.Serial('/dev/rfcomm0');
 
 const printer = new escpos.Printer(device);
 
@@ -22,6 +23,13 @@ device.open(function(){
     //     });
     //
     printer.text("Thanh Test");
+    printer.text("Thanh Test");
+    printer.text("Thanh Test");
+    printer.text("Thanh Test");
+    printer.text("Thanh Test");
+    printer.text("Thanh Test");
+    printer.text("Thanh Test");
+
     printer.cut();
     printer.close();
 
