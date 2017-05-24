@@ -46,8 +46,9 @@ _.HARDWARE = {
  * @type {Object}
  */
 _.CASH_DRAWER = {
-  CD_KICK_2 : '\x1b\x70\x00'      , // Sends a pulse to pin 2 []
+  CD_KICK_2 : '\x1b\x70\x0b\x37\x07'      , // Sends a pulse to pin 2 []0x1b, 0x07, 0x0b, 0x37, 0x07
   CD_KICK_5 : '\x1b\x70\x01'      , // Sends a pulse to pin 5 []
+
 };
 
 /**

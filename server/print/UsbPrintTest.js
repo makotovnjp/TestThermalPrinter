@@ -37,6 +37,7 @@ device.open(function(){
 
     printer.cashdraw(2);
 
+    //printer.cashdraw(5);
     printer.close();
 
 });
