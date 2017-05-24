@@ -25,48 +25,43 @@ device.open(function(){
     //printer.font('a');
     //printer.font('a');
 
-    printer.text("ご利用ありがとうございます",'Shift_JIS');
+    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
 
-    printer.text("ご利用ありがとうございます",'GB18030');
-
-    printer.text("Số lượng",'tcvn');
-
-    printer.text("Số lượng",'GB18030');
-
-    printer.text("abc",'GB18030');
-
-
-    printer.cut();
-
-    printer.text("ご利用ありがとうございます",'Shift_JIS');
-
-    printer.text("ご利用ありがとうございます",'GB18030');
-
-    printer.text("Số lượng",'tcvn');
-
-    printer.text("Số lượng",'GB18030');
-
-    printer.text("abc",'GB18030');
-
-
-    printer.cut();
-
-    printer.text("ご利用ありがとうございます",'Shift_JIS');
-
-    printer.text("ご利用ありがとうございます",'GB18030');
-
-    printer.text("Số lượng",'tcvn');
-
-    printer.text("Số lượng",'GB18030');
-
-    printer.text("abc",'GB18030');
-
+    printer.text("Số lượng",'UTF-8');
 
     printer.cut();
 
     printer.close();
 
 });
+
+device.open(function(){
+    //
+    // printer
+    //     .font('a')
+    //     .align('ct')
+    //     .style('bu')
+    //     .size(1, 1)
+    //     .text('Thanh Test')
+    //     .barcode('12345678', 'EAN8')
+    //     .qrimage('https://github.com/song940/node-escpos', function(err){
+    //         this.cut();
+    //         this.close();
+    //     });
+    //
+    //printer.font('a');
+    //printer.font('a');
+
+    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
+
+    printer.text("Số lượng",'UTF-8');
+
+    printer.cut();
+
+    printer.close();
+
+});
+
 
 
 // printer.text("ご利用ありがとうございます",'Shift_JIS');
