@@ -2,9 +2,9 @@
 const escpos = require('./../lib/escpos');
 
 // Select the adapter based on your printer type
-const device  = new escpos.USB();
+//const device  = new escpos.USB();
 // const device  = new escpos.Network('localhost');
-//const device  = new escpos.Serial('/dev/rfcomm0');
+const device  = new escpos.Serial('/dev/rfcomm0');
 
 const printer = new escpos.Printer(device);
 
@@ -38,6 +38,48 @@ device.open(function(){
 
     printer.cut();
 
-    printer.close();
+    printer.text("ご利用ありがとうございます",'Shift_JIS');
+
+    printer.text("ご利用ありがとうございます",'GB18030');
+
+    printer.text("Số lượng",'tcvn');
+
+    printer.text("Số lượng",'GB18030');
+
+    printer.text("abc",'GB18030');
+
+
+    printer.cut();
+
+    printer.text("ご利用ありがとうございます",'Shift_JIS');
+
+    printer.text("ご利用ありがとうございます",'GB18030');
+
+    printer.text("Số lượng",'tcvn');
+
+    printer.text("Số lượng",'GB18030');
+
+    printer.text("abc",'GB18030');
+
+
+    printer.cut();
+
+    //printer.close();
 
 });
+
+
+printer.text("ご利用ありがとうございます",'Shift_JIS');
+
+printer.text("ご利用ありがとうございます",'GB18030');
+
+printer.text("Số lượng",'tcvn');
+
+printer.text("Số lượng",'GB18030');
+
+printer.text("abc",'GB18030');
+
+
+printer.cut();
+
+device.close();
