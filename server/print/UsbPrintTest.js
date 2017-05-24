@@ -33,6 +33,9 @@ device.open(function(){
 
     printer.text("Số lượng",'GB18030');
 
+    printer.text("abc",'GB18030');
+
+
     printer.cut();
 
     printer.close();
