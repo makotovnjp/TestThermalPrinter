@@ -25,19 +25,19 @@ device.open(function(){
     //printer.font('a');
     //printer.font('a');
 
-    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
+    printer.text("ご利用ありがとうございます",'Shift_JIS');
 
     printer.text("Số lượng",'UTF-8');
 
     printer.cut();
 
-    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
+    printer.text("ご利用ありがとうございます",'Shift_JIS');
 
     printer.text("Số lượng",'UTF-8');
 
     printer.cut();
 
-    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
+    printer.text("ご利用ありがとうございます",'Shift_JIS');
 
     printer.text("Số lượng",'UTF-8');
 
