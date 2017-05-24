@@ -31,26 +31,11 @@ device.open(function(){
 
     printer.cut();
 
-    printer.close();
+    printer.text("ご利用ありがとうございます",'SHIFT_JIS');
 
-});
+    printer.text("Số lượng",'UTF-8');
 
-device.open(function(){
-    //
-    // printer
-    //     .font('a')
-    //     .align('ct')
-    //     .style('bu')
-    //     .size(1, 1)
-    //     .text('Thanh Test')
-    //     .barcode('12345678', 'EAN8')
-    //     .qrimage('https://github.com/song940/node-escpos', function(err){
-    //         this.cut();
-    //         this.close();
-    //     });
-    //
-    //printer.font('a');
-    //printer.font('a');
+    printer.cut();
 
     printer.text("ご利用ありがとうございます",'SHIFT_JIS');
 
@@ -58,9 +43,11 @@ device.open(function(){
 
     printer.cut();
 
-    printer.close();
+    //printer.close();
 
 });
+
+
 
 
 
