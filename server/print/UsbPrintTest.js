@@ -27,7 +27,7 @@ device.open(function(){
 
     printer.text("ご利用ありがとうございます",'Shift_JIS');
 
-    printer.text("Số lượng",'UTF-16');
+    printer.text("Số lượng",'WPC1258');
 
     printer.cut();
 
