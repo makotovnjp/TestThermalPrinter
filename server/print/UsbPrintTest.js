@@ -35,9 +35,9 @@ device.open(function(){
     //
     // printer.cut();
 
-    printer.cashdraw(2);
+    printer.cashdraw();
 
-    //printer.cashdraw(5);
+    printer.cashdraw(5);
     printer.close();
 
 });
