@@ -22,6 +22,7 @@ device.open(function(){
     //         this.close();
     //     });
     //
+    printer.font('a');
     printer.text("Thanh Test");
     printer.text("Thanh Test");
     printer.text("Thanh Test");
