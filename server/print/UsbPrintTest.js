@@ -35,7 +35,7 @@ device.open(function(){
 
     printer.cut();
 
-    printer.cashdraw();
+    //printer.cashdraw();
 
     //printer.cashdraw(5);
     printer.close();
