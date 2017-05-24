@@ -19,7 +19,7 @@ $ npm install node-thermal-printer
 ```js
 printer.init({
   type: 'star',                                     // Printer type: 'star' or 'epson'
-  interface: '/dev/usb/lp0',                        // Printer interface
+  INTERFACE: '/dev/usb/lp0',                        // Printer interface
   characterSet: 'SLOVENIA',                         // Printer character set
   removeSpecialCharacters: false,                   // Removes special characters - default: false
   replaceSpecialCharacters: true                    // Replaces special characters listed in config files - default: true

@@ -31,6 +31,12 @@ device.open(function(){
     printer.text("Thanh Test");
 
     printer.cut();
+
+    printer.text("ご利用ありがとうございます");
+    printer.text("Số lượng");
+
+    printer.cut();
+
     printer.close();
 
 });
