@@ -39,7 +39,36 @@ device.open(function(){
 
 });
 
+device.open(function(){
+    //
+    // printer
+    //     .font('a')
+    //     .align('ct')
+    //     .style('bu')
+    //     .size(1, 1)
+    //     .text('Thanh Test')
+    //     .barcode('12345678', 'EAN8')
+    //     .qrimage('https://github.com/song940/node-escpos', function(err){
+    //         this.cut();
+    //         this.close();
+    //     });
+    //
+    //printer.font('a');
+    //printer.font('a');
 
+    printer.text("ご利用ありがとうございます4",'Shift_JIS');
+
+
+    printer.text("ご利用ありがとうございます5",'Shift_JIS');
+
+
+    printer.text("ご利用ありがとうございます6",'Shift_JIS');
+
+    printer.cut();
+
+    printer.close();
+
+});
 
 
 
